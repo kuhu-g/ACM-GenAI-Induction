@@ -9,7 +9,7 @@ st.set_page_config(page_icon="💬", layout="wide",
 st.subheader("Groq Chat Streamlit App", anchor=False)
 
 client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"],
+    api_key="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",
 )
 
 if "messages" not in st.session_state:
